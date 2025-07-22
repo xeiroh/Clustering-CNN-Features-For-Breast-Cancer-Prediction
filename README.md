@@ -1,4 +1,4 @@
-🧠 Clustering CNN Features for Breast Cancer Prediction Using Swarm Intelligence
+# 🧠 Clustering CNN Features for Breast Cancer Prediction Using Swarm Intelligence
 
 Author: Gokul Ganesan
 
@@ -34,7 +34,7 @@ How can Swarm Intelligence improve the unsupervised classification of breast can
 
 ## 🗃️ Dataset
 
-# BreakHis – Breast Cancer Histopathological Image Dataset
+### BreakHis – Breast Cancer Histopathological Image Dataset
 
 Source: Kaggle
 
@@ -52,7 +52,7 @@ Source: Kaggle
 
 ## 🧠 Methodology
 
-# 🔍 Feature Extraction
+### 🔍 Feature Extraction
 
 •	Model: VGG16 with ImageNet weights
 
@@ -62,7 +62,7 @@ Source: Kaggle
 
 •	Applied PCA (n=50) to reduce noise and dimensionality
 
-🔗 Clustering Algorithms
+### 🔗 Clustering Algorithms
 
 1.	KMeans
 	
@@ -83,7 +83,6 @@ Source: Kaggle
  	•	Bayesian search used for tuning
 
 
-📊 Results
 
 <img width="1285" height="690" alt="Screenshot 2025-07-21 at 8 37 51 PM" src="https://github.com/user-attachments/assets/b2cfc320-fb4d-4234-9571-aadb6ef41b88" />
 
@@ -91,33 +90,45 @@ Source: Kaggle
 
 
 •	Fine-tuning the CNN significantly improved clustering performance.
+
 •	Swarm Intelligence outperformed traditional clustering in both binary and multi-class classification.
+
 •	Demonstrated strong handling of non-linear and high-dimensional feature relationships.
 
 ⸻
 
-📈 Visualizations
-	•	PCA (2D) and t-SNE plots were used to illustrate cluster separations.
-	•	Swarm Intelligence clusters displayed non-linear boundaries, unlike KMeans.
+## 📈 Visualizations
+
+ •	PCA (2D) and t-SNE plots were used to illustrate cluster separations.
+	
+ •	Swarm Intelligence clusters displayed non-linear boundaries, unlike KMeans.
 
 ⸻
 
-⚙️ Technical Details
-	•	Frameworks: TensorFlow / Keras, Scikit-learn, Matplotlib, NumPy
-	•	Training:
-	•	Initial 5 epochs on Dense layer (freeze base)
-	•	Additional 10 epochs full-model training
-	•	Dropout 0.5 added to avoid overfitting
+## ⚙️ Technical Details
+	
+ •	Frameworks: TensorFlow / Keras, Scikit-learn, Matplotlib, NumPy
+	
+ •	Training:
+	
+ •	Initial 5 epochs on Dense layer (freeze base)
+	
+ •	Additional 10 epochs full-model training
+	
+ •	Dropout 0.5 added to avoid overfitting
 
 ⸻
 
-📚 Resources
-	•	Clusterflock: A flocking algorithm
-	•	Flock by Leader: Biologically Inspired Clustering
-	•	BreakHis Dataset
+## 📚 Resources
+	
+ •	Clusterflock: A flocking algorithm
+	
+ •	Flock by Leader: Biologically Inspired Clustering
+	
+ •	BreakHis Dataset
 
 ⸻
 
-✅ Conclusion
+## ✅ Conclusion
 
 Swarm Intelligence offers a powerful, flexible method for clustering CNN feature vectors—especially in medical imaging, where unsupervised learning reduces reliance on possibly flawed labels. This project demonstrates its superiority over traditional methods like KMeans in capturing complex, high-dimensional similarity structures.
