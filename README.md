@@ -6,7 +6,7 @@ Repo: Clustering-CNN-Features-For-Breast-Cancer-Prediction
 
 ⸻
 
-📌 Overview
+## 📌 Overview
 
 This project explores the integration of Swarm Intelligence algorithms into Computer Vision, applying them to the clustering of breast cancer histopathological images. We extract features using a fine-tuned VGG16 CNN and compare traditional KMeans clustering against a biologically-inspired Flocking Algorithm (e.g., Clusterflock / Flock by Leader).
 
