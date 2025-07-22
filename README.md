@@ -1,3 +1,8 @@
+<img width="1285" height="690" alt="Screenshot 2025-07-21 at 8 37 51 PM" src="https://github.com/user-attachments/assets/b2cfc320-fb4d-4234-9571-aadb6ef41b88" />
+
+<img width="1277" height="715" alt="Screenshot 2025-07-21 at 8 38 22 PM" src="https://github.com/user-attachments/assets/7f744459-09da-453c-a196-c7c7b3bb5076" />
+
+
 # 🧠 Clustering CNN Features for Breast Cancer Prediction Using Swarm Intelligence
 
 Author: Gokul Ganesan
@@ -84,16 +89,6 @@ Source: Kaggle
 
 
 
-<img width="1285" height="690" alt="Screenshot 2025-07-21 at 8 37 51 PM" src="https://github.com/user-attachments/assets/b2cfc320-fb4d-4234-9571-aadb6ef41b88" />
-
-<img width="1277" height="715" alt="Screenshot 2025-07-21 at 8 38 22 PM" src="https://github.com/user-attachments/assets/7f744459-09da-453c-a196-c7c7b3bb5076" />
-
-
-•	Fine-tuning the CNN significantly improved clustering performance.
-
-•	Swarm Intelligence outperformed traditional clustering in both binary and multi-class classification.
-
-•	Demonstrated strong handling of non-linear and high-dimensional feature relationships.
 
 ⸻
 
@@ -130,5 +125,11 @@ Source: Kaggle
 ⸻
 
 ## ✅ Conclusion
+
+•	Fine-tuning the CNN significantly improved clustering performance.
+
+•	Swarm Intelligence outperformed traditional clustering in both binary and multi-class classification.
+
+•	Demonstrated strong handling of non-linear and high-dimensional feature relationships.
 
 Swarm Intelligence offers a powerful, flexible method for clustering CNN feature vectors—especially in medical imaging, where unsupervised learning reduces reliance on possibly flawed labels. This project demonstrates its superiority over traditional methods like KMeans in capturing complex, high-dimensional similarity structures.
