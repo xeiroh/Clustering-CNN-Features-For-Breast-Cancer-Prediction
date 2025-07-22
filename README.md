@@ -68,9 +68,9 @@ Fine-tuned VGG16 + KMeans          70%                                       23%
 Fine-tuned VGG16 + Flock           96.35%                                    44%
 
 
-	•	Fine-tuning the CNN significantly improved clustering performance.
-	•	Swarm Intelligence outperformed traditional clustering in both binary and multi-class classification.
-	•	Demonstrated strong handling of non-linear and high-dimensional feature relationships.
+•	Fine-tuning the CNN significantly improved clustering performance.
+•	Swarm Intelligence outperformed traditional clustering in both binary and multi-class classification.
+•	Demonstrated strong handling of non-linear and high-dimensional feature relationships.
 
 ⸻
 
