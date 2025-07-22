@@ -14,13 +14,13 @@ The goal: Unsupervised learning for classification, which reduces the risks of h
 
 ⸻
 
-❓ Research Question
+## ❓ Research Question
 
 How can Swarm Intelligence improve the unsupervised classification of breast cancer images based on CNN-extracted features?
 
 ⸻
 
-🚀 Motivation
+## 🚀 Motivation
 
 •	Swarm intelligence is biologically inspired and novel in computer vision applications.
 
@@ -32,9 +32,10 @@ How can Swarm Intelligence improve the unsupervised classification of breast can
 
 ⸻
 
-🗃️ Dataset
+## 🗃️ Dataset
 
-BreakHis – Breast Cancer Histopathological Image Dataset
+# BreakHis – Breast Cancer Histopathological Image Dataset
+
 Source: Kaggle
 
 •	7,909 total images
@@ -49,9 +50,9 @@ Source: Kaggle
 
 ⸻
 
-🧠 Methodology
+## 🧠 Methodology
 
-🔍 Feature Extraction
+# 🔍 Feature Extraction
 
 •	Model: VGG16 with ImageNet weights
 
