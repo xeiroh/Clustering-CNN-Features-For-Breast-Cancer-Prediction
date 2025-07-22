@@ -20,10 +20,14 @@ How can Swarm Intelligence improve the unsupervised classification of breast can
 ⸻
 
 🚀 Motivation
-	•	Swarm intelligence is biologically inspired and novel in computer vision applications.
-	•	It has proven effective in tasks like gene clustering and document similarity (e.g., TF-IDF spaces).
-	•	Applying it to high-dimensional CNN feature spaces provides insight into non-linear clustering capabilities.
-	•	Real-world significance: Enhancing medical imaging diagnostics without human bias.
+
+•	Swarm intelligence is biologically inspired and novel in computer vision applications.
+
+•	It has proven effective in tasks like gene clustering and document similarity (e.g., TF-IDF spaces).
+
+•	Applying it to high-dimensional CNN feature spaces provides insight into non-linear clustering capabilities.
+
+•	Real-world significance: Enhancing medical imaging diagnostics without human bias.
 
 ⸻
 
@@ -31,41 +35,57 @@ How can Swarm Intelligence improve the unsupervised classification of breast can
 
 BreakHis – Breast Cancer Histopathological Image Dataset
 Source: Kaggle
-	•	7,909 total images
-	•	Magnifications: 40x, 100x, 200x, 400x (ignored for this project)
-	•	Classification:
-	•	2 main categories: Benign and Malignant
-	•	4 subtypes within each → 8 subtypes total
+
+•	7,909 total images
+
+•	Magnifications: 40x, 100x, 200x, 400x (ignored for this project)
+
+•	Classification:
+
+•	2 main categories: Benign and Malignant
+
+•	4 subtypes within each → 8 subtypes total
 
 ⸻
 
 🧠 Methodology
 
 🔍 Feature Extraction
-	•	Model: VGG16 with ImageNet weights
-	•	Fine-tuned on the BreakHis dataset (Dense layer trained, base layers frozen)
-	•	Extracted feature vectors (512-D) from the global average pooling layer
-	•	Applied PCA (n=50) to reduce noise and dimensionality
+
+•	Model: VGG16 with ImageNet weights
+
+•	Fine-tuned on the BreakHis dataset (Dense layer trained, base layers frozen)
+
+•	Extracted feature vectors (512-D) from the global average pooling layer
+
+•	Applied PCA (n=50) to reduce noise and dimensionality
 
 🔗 Clustering Algorithms
-	1.	KMeans
-	•	Clustering into k=2 (benign vs malignant) and k=8 (subtypes)
-	2.	Swarm Intelligence (Flock by Leader / Clusterflock)
-	•	Each image = virtual “bird”
-	•	Assigns clusters (“flocks”) based on neighbor proximity
-	•	Key hyperparameters:
-	•	max_distance = 0.1
-	•	min_samples = 40
-	•	Bayesian search used for tuning
+
+1.	KMeans
+	
+ 	•	Clustering into k=2 (benign vs malignant) and k=8 (subtypes)
+
+2.	Swarm Intelligence (Flock by Leader / Clusterflock)
+	
+ 	•	Each image = virtual “bird”
+	
+ 	•	Assigns clusters (“flocks”) based on neighbor proximity
+	
+ 	•	Key hyperparameters:
+	
+ 	•	max_distance = 0.1
+	
+ 	•	min_samples = 40
+	
+ 	•	Bayesian search used for tuning
 
 
 📊 Results
 
-Model                              2-Class Accuracy                          8-Class Accuracy
+<img width="1285" height="690" alt="Screenshot 2025-07-21 at 8 37 51 PM" src="https://github.com/user-attachments/assets/b2cfc320-fb4d-4234-9571-aadb6ef41b88" />
 
-Base VGG16 + KMeans                50%                                       18%
-Fine-tuned VGG16 + KMeans          70%                                       23%
-Fine-tuned VGG16 + Flock           96.35%                                    44%
+<img width="1277" height="715" alt="Screenshot 2025-07-21 at 8 38 22 PM" src="https://github.com/user-attachments/assets/7f744459-09da-453c-a196-c7c7b3bb5076" />
 
 
 •	Fine-tuning the CNN significantly improved clustering performance.
