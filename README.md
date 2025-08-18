@@ -37,7 +37,7 @@ How can Swarm Intelligence improve the unsupervised classification of breast can
 
 ⸻
 
-## 🗃 Dataset
+##  Dataset
 
 ### BreakHis – Breast Cancer Histopathological Image Dataset
 
@@ -92,7 +92,7 @@ Source: Kaggle
 
 ⸻
 
-## 📈 Visualizations
+##  Visualizations
 
  •	PCA (2D) and t-SNE plots were used to illustrate cluster separations.
 	
