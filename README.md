@@ -3,7 +3,7 @@
 <img width="1277" height="715" alt="Screenshot 2025-07-21 at 8 38 22 PM" src="https://github.com/user-attachments/assets/7f744459-09da-453c-a196-c7c7b3bb5076" />
 
 
-# 🧠 Clustering CNN Features for Breast Cancer Prediction Using Swarm Intelligence
+#  Clustering CNN Features for Breast Cancer Prediction Using Swarm Intelligence
 
 Author: Gokul Ganesan
 
@@ -11,7 +11,7 @@ Repo: Clustering-CNN-Features-For-Breast-Cancer-Prediction
 
 ⸻
 
-## 📌 Overview
+##  Overview
 
 This project explores the integration of Swarm Intelligence algorithms into Computer Vision, applying them to the clustering of breast cancer histopathological images. We extract features using a fine-tuned VGG16 CNN and compare traditional KMeans clustering against a biologically-inspired Flocking Algorithm (e.g., Clusterflock / Flock by Leader).
 
@@ -19,13 +19,13 @@ The goal: Unsupervised learning for classification, which reduces the risks of h
 
 ⸻
 
-## ❓ Research Question
+##  Research Question
 
 How can Swarm Intelligence improve the unsupervised classification of breast cancer images based on CNN-extracted features?
 
 ⸻
 
-## 🚀 Motivation
+##  Motivation
 
 •	Swarm intelligence is biologically inspired and novel in computer vision applications.
 
@@ -37,7 +37,7 @@ How can Swarm Intelligence improve the unsupervised classification of breast can
 
 ⸻
 
-## 🗃️ Dataset
+## 🗃 Dataset
 
 ### BreakHis – Breast Cancer Histopathological Image Dataset
 
@@ -55,9 +55,9 @@ Source: Kaggle
 
 ⸻
 
-## 🧠 Methodology
+##  Methodology
 
-### 🔍 Feature Extraction
+###  Feature Extraction
 
 •	Model: VGG16 with ImageNet weights
 
@@ -67,7 +67,7 @@ Source: Kaggle
 
 •	Applied PCA (n=50) to reduce noise and dimensionality
 
-### 🔗 Clustering Algorithms
+###  Clustering Algorithms
 
 1.	KMeans
 	
@@ -100,7 +100,7 @@ Source: Kaggle
 
 ⸻
 
-## ⚙️ Technical Details
+##  Technical Details
 	
  •	Frameworks: TensorFlow / Keras, Scikit-learn, Matplotlib, NumPy
 	
@@ -114,17 +114,15 @@ Source: Kaggle
 
 ⸻
 
-## 📚 Resources
+##  Resources
 	
  •	Clusterflock: A flocking algorithm
-	
- •	Flock by Leader: Biologically Inspired Clustering
 	
  •	BreakHis Dataset
 
 ⸻
 
-## ✅ Conclusion
+##  Conclusion
 
 •	Fine-tuning the CNN significantly improved clustering performance.
 
